@@ -1,4 +1,7 @@
-package org.example.data;
+package org.example.data.entity;
+
+import org.example.data.gradeandsubject.Grade;
+import org.example.data.gradeandsubject.Subject;
 
 import java.util.Map;
 

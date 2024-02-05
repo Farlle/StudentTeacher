@@ -1,7 +1,7 @@
 package org.example;
 
-import org.example.data.Student;
-import org.example.data.Teacher;
+import org.example.data.entity.Student;
+import org.example.data.entity.Teacher;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

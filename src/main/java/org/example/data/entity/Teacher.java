@@ -1,6 +1,5 @@
-package org.example.data;
+package org.example.data.entity;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -15,7 +14,6 @@ public class Teacher {
         this.name = "Dima";
         this.students = students;
     }
-
 
     public String getName() {
         return name;
