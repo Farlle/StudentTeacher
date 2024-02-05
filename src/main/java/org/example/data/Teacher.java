@@ -1,7 +1,8 @@
 package org.example.data;
 
-import java.util.List;
+import org.springframework.stereotype.Component;
 
+import java.util.List;
 public class Teacher {
     private String name;
     private List<Student> students;
