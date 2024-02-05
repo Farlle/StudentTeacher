@@ -9,7 +9,7 @@
 
     <context:component-scan base-package="org.example.data"/>
 
-    <bean id="student1" class="org.example.data.Student" init-method="enrollment">
+    <bean id="student1" class="org.example.data.entity.Student" init-method="enrollment">
         <property name="name" value="Oleg"/>
         <property name="gradeBySubject">
             <map>
@@ -21,7 +21,7 @@
         </property>
     </bean>
 
-    <bean id="student2" class="org.example.data.Student" init-method="enrollment">
+    <bean id="student2" class="org.example.data.entity.Student" init-method="enrollment">
         <property name="name" value="Sashok"/>
         <property name="gradeBySubject">
             <map>
@@ -33,7 +33,7 @@
         </property>
     </bean>
 
-    <bean id="student3" class="org.example.data.Student" init-method="enrollment">
+    <bean id="student3" class="org.example.data.entity.Student" init-method="enrollment">
         <property name="name" value="Jil"/>
         <property name="gradeBySubject">
             <map>
