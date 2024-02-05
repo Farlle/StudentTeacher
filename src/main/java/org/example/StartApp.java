@@ -1,8 +1,8 @@
 package org.example;
 
 import org.example.config.ApplicationConfig;
-import org.example.data.gradeandsubject.Student;
-import org.example.data.gradeandsubject.Teacher;
+import org.example.data.entity.Student;
+import org.example.data.entity.Teacher;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

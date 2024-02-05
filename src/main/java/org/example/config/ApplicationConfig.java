@@ -1,8 +1,8 @@
 package org.example.config;
 
-import org.example.data.entity.Grade;
-import org.example.data.entity.Subject;
-import org.example.data.gradeandsubject.Student;
+import org.example.data.gradeandsubject.Grade;
+import org.example.data.gradeandsubject.Subject;
+import org.example.data.entity.Student;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -25,7 +25,6 @@ public class ApplicationConfig {
         return new Student("Oleg", gradeBySubject);
     }
 
-
     @Bean(initMethod = "enrollment")
     public Student student2() {
         Map<Subject, Grade> gradeBySubject = new HashMap();
@@ -35,7 +34,6 @@ public class ApplicationConfig {
         gradeBySubject.put(Subject.ENGLISH_LANGUAGE, Grade.THREE);
         return new Student("Jil", gradeBySubject);
     }
-
 
     @Bean(initMethod = "enrollment")
     public Student student3() {
@@ -47,9 +45,8 @@ public class ApplicationConfig {
         return new Student("Sashok", gradeBySubject);
     }
 
-
     @Bean
-    public static BeanPostProcessor gradePostProcessor1() {
+    public static BeanPostProcessor gradePostProcessor() {
         return new GradePostProcessor();
     }
 

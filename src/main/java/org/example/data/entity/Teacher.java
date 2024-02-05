@@ -1,21 +1,18 @@
-package org.example.data.gradeandsubject;
+package org.example.data.entity;
 
-import org.example.data.gradeandsubject.Student;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-@Component("teacher")
+@Component
 public class Teacher {
     private String name;
-
     private List<Student> students;
 
     public Teacher(List<Student> students) {
         this.name = "Dima";
         this.students = students;
     }
-
 
     public String getName() {
         return name;

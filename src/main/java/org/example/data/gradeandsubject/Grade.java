@@ -1,4 +1,4 @@
-package org.example.data.entity;
+package org.example.data.gradeandsubject;
 
 public enum Grade {
     FIVE(5),
