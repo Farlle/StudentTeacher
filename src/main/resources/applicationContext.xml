@@ -8,6 +8,7 @@
                            http://www.springframework.org/schema/context/spring-context.xsd">
 
     <context:component-scan base-package="org.example.data"/>
+<!--     <context:annotation-config/>-->
 
     <bean id="student1" class="org.example.data.Student" init-method="enrollment">
         <property name="name" value="Oleg"/>
@@ -44,7 +45,5 @@
             </map>
         </property>
     </bean>
-
-    <bean class="org.example.GradePostProcessor"/>
 
 </beans>
