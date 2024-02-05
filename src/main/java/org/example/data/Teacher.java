@@ -11,7 +11,6 @@ public class Teacher {
 
     private List<Student> students;
 
-    @Autowired
     public Teacher(List<Student> students) {
         this.name = "Dima";
         this.students = students;
