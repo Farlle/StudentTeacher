@@ -1,4 +1,4 @@
-package org.example.data;
+package org.example.data.entity;
 
 public enum Subject {
     MATHEMATICS,

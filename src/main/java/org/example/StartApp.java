@@ -1,14 +1,15 @@
 package org.example;
 
-import org.example.data.Student;
-import org.example.data.Teacher;
+import org.example.config.ApplicationConfig;
+import org.example.data.gradeandsubject.Student;
+import org.example.data.gradeandsubject.Teacher;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class StartApp {
     public static void main(String[] args) {
-        ApplicationContext applicationContext =
-                new ClassPathXmlApplicationContext("applicationContext.xml");
+
+        ApplicationContext applicationContext = new AnnotationConfigApplicationContext(ApplicationConfig.class);
 
         var student1 = applicationContext.getBean("student1", Student.class);
         var student2 = applicationContext.getBean("student2", Student.class);

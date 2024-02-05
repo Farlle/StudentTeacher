@@ -1,11 +1,11 @@
-package org.example.data;
+package org.example.data.gradeandsubject;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import org.example.data.gradeandsubject.Student;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-@Component
+@Component("teacher")
 public class Teacher {
     private String name;
 

@@ -1,4 +1,7 @@
-package org.example.data;
+package org.example.data.gradeandsubject;
+
+import org.example.data.entity.Grade;
+import org.example.data.entity.Subject;
 
 import java.util.Map;
 
@@ -6,6 +9,11 @@ public class Student {
     private String name;
     private Map<Subject, Grade> gradeBySubject;
     boolean student = false;
+
+    public Student(String name, Map<Subject, Grade> gradeBySubject) {
+        this.name = name;
+        this.gradeBySubject = gradeBySubject;
+    }
 
     public String getName() {
         return name;

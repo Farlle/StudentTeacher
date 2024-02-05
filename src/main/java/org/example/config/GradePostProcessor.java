@@ -1,7 +1,7 @@
-package org.example;
+package org.example.config;
 
-import org.example.data.Grade;
-import org.example.data.Student;
+import org.example.data.entity.Grade;
+import org.example.data.gradeandsubject.Student;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 
