@@ -15,7 +15,6 @@ public class StartApp {
         var student3 = applicationContext.getBean("student3", Student.class);
         var teacher = applicationContext.getBean(Teacher.class);
 
-
         System.out.println(student1 + "\n" +
                 student2 + "\n" +
                 student3);
