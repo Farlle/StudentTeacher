@@ -1,4 +1,4 @@
-package org.example.data.gradeandsubject;
+package org.example.data.enums;
 
 public enum Subject {
     MATHEMATICS,
