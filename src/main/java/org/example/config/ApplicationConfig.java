@@ -1,7 +1,7 @@
 package org.example.config;
 
-import org.example.data.gradeandsubject.Grade;
-import org.example.data.gradeandsubject.Subject;
+import org.example.data.enums.Grade;
+import org.example.data.enums.Subject;
 import org.example.data.entity.Student;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.context.annotation.Bean;

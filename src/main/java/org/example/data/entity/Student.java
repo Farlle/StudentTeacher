@@ -1,7 +1,7 @@
 package org.example.data.entity;
 
-import org.example.data.gradeandsubject.Grade;
-import org.example.data.gradeandsubject.Subject;
+import org.example.data.enums.Grade;
+import org.example.data.enums.Subject;
 
 import java.util.Map;
 
